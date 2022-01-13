@@ -210,7 +210,7 @@ while True:
 
             while True:
 
-                try:
+                try: #2
                 
                     orderCount = searchOrder(symbol)
                     entryPrice, positionAmt = searchPosition(symbol)
